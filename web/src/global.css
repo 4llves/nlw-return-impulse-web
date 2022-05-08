@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  /* @apply bg-[#09090a] text-zinc-100; */
+  @apply bg-[#09090a] bg-nlwReturn text-zinc-100;
+}
