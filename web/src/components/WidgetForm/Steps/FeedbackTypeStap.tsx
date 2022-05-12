@@ -27,7 +27,9 @@ export function FeedbackTypeStep({ onFeedbackTypeChanged }: FeedbackTypeStepProp
             <button
               key={key}
               className="
-                bg-zinc-800
+                dark:bg-zinc-800
+                bg-zinc-100
+
                 rounded-lg
                 py-5
                 w-24

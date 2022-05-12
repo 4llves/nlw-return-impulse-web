@@ -38,8 +38,13 @@ export function ScreenshotButton({
           flex
           justify-end
           items-end
-          text-zinc-400
-          hover:text-zinc-100
+          
+          dark:text-zinc-400
+          text-zinc-500
+
+          dark:hover:text-zinc-100
+          hover:text-zinc-800
+
           transition-colors
         "
         onClick={() => onScreenshotTook(null)}
@@ -61,15 +66,22 @@ export function ScreenshotButton({
       onClick={handleTakeScreenshot}
       className="
         p-2
-        bg-zinc-800
+        dark:bg-zinc-800
+        bg-zinc-100
+
         rounded-md
         border-transparent
-        hover:bg-zinc-700
+        dark:hover:bg-zinc-700
+        hover:bg-zinc-200
+
         transition-colors
         focus:outline-none
         focus:ring-2
         focus:ring-offset-2
-        focus:ring-offset-zinc-900
+
+        dark:focus:ring-offset-zinc-900
+        focus:ring-offset-zinc-white
+        
         focus:ring-brand-500
       "
     >

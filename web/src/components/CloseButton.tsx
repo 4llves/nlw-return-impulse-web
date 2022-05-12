@@ -8,8 +8,12 @@ export function CloseButton() {
       top-5
       right-5
       absolute
-      text-zinc-400
-      hover:text-zinc-100
+      
+      dark:text-zinc-400
+      text-zinc-500
+      
+      dark:hover:text-zinc-100
+      hover:text-zinc-800
       "
       title="Fechar Forumário de Feedback"
     >

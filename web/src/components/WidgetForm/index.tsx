@@ -46,7 +46,9 @@ export function WidgetForm() {
   return (
     <div
       className="
-      bg-zinc-900
+      dark:bg-zinc-900
+      bg-white
+
       p-4
       relative
       rounded-2xl
@@ -76,7 +78,7 @@ export function WidgetForm() {
         </>
       )}
 
-      <footer className="text-xs text-neutral-400">
+      <footer className="text-xs dark:text-neutral-400 text-neutral-500">
         Feito com ♥ pela <a className="underline underline-offset-2" href="https://rocketseat.com.br">Rocketseat</a>
       </footer>
     </div >

@@ -47,8 +47,11 @@ export function FeedbackContentStep({
             top-5
             left-5
             absolute
+            dark:text-zinc-400
             text-zinc-400
-            hover:text-zinc-100
+
+            dark:hover:text-zinc-100
+            hover:text-zinc-800
           "
           onClick={onFeedbackRestartRequested}
         >
@@ -77,9 +80,15 @@ export function FeedbackContentStep({
             w-full
             min-h-[112px]
             text-sm
-            placeholder-zinc-400
-            text-zinc-100
-            border-zinc-600
+            dark:placeholder-zinc-400
+            placeholder-zinc-500
+
+            dark:text-zinc-100
+            text-zinc-800
+
+            dark:border-zinc-600
+            border-zinc-300
+
             bg-transparent
             rounded-md
             focus:border-brand-500
@@ -87,7 +96,9 @@ export function FeedbackContentStep({
             focus:ring-1
             focus:outline-none
             resize-none
-            scrollbar-thumb-zinc-700
+            dark:scrollbar-thumb-zinc-700
+            scrollbar-thumb-zinc-200
+
             scrollbar-track-transparent
             scrollbar-thin
           "
@@ -118,7 +129,9 @@ export function FeedbackContentStep({
               focus:outline-none
               focus:ring-2
               focus:ring-offset-2
-              focus:ring-offset-zinc-900
+              dark:focus:ring-offset-zinc-900
+              focus:ring-offset-white
+
               focus:ring-brand-500
               transition-colors
               disabled:opacity-50

@@ -1,5 +1,11 @@
+import { ThemeButton } from "./components/ThemeButton";
 import { Widget } from "./components/Widget";
 
 export function App() {
-  return <Widget />
+  return (
+    <>
+      <ThemeButton />
+      <Widget />
+    </>
+  )
 }
